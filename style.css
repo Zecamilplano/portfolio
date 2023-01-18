@@ -11,7 +11,7 @@
 .caixa-principal {
     height: 100vh;
     width: 100%;
-    background-image: url(./img/background1.png);
+    background-image: url(./src/img/background1.png);
     background-size: cover;
     background-position: center;
     background-color: #191919;
@@ -129,9 +129,12 @@ section img {
 .contatos a {
     color: black;
 }
-
+.curriculo{
+    display: block;
+    margin: 15px auto;
+}
 /*.github {
-    display: inline-flex;
+    display: inline-flex;'
     display: block;
     margin: -35px auto;
 }*/ 
@@ -259,7 +262,7 @@ footer {
 
     .meu-nome{
         width: 100vw;
-        margin: 42vw auto;
+        margin: 16vw auto;
     }
 
     .sobre{
@@ -289,12 +292,10 @@ footer {
     }
 
     .contatos{
-        display: inline-flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 15px;
-        gap: 25px;
+        text-align: center;
+        display: block;
     }
+    
 
     .skills{
         text-align: center;
