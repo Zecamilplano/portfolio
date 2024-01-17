@@ -2,189 +2,190 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
 </head>
 
 <body>
-    <div class="caixa-principal">
+  <div class="caixa-principal">
 
-        <nav>
-            <p class="portifolio">Portfo<span>lio</span></p>
-            <ul>
-                <li> <a href="#">Home</a> </li>
-                <li> <a href="#sobre">Sobre / Fale comigo</a> </li>
-                <li> <a href="#projects">Projetos</a> </li>
-            </ul>
-        </nav>
-        <div class="meu-nome">
-            <h1>Ezequiel <span>Santos</span></h1>
-            <h3>Programador Front End</h3>
+    <nav>
+      <p class="portifolio">Portfo<span>lio</span></p>
+      <ul>
+        <li> <a href="#">Home</a> </li>
+        <li> <a href="#sobre">Sobre / Fale comigo</a> </li>
+        <li> <a href="#projects">Projetos</a> </li>
+      </ul>
+    </nav>
+    <div class="meu-nome">
+      <h1>Ezequiel <span>Santos</span></h1>
+      <h3>Programador Front End</h3>
 
-        </div>
     </div>
+  </div>
 
-    <section id="sobre">
-        <img src="./src/img/eze-img-re.png">
-        <div class="caixa-sobremim">
-            <h2>Sobre mim</h2>
-            <P>Ola, sou Ezequiel! Tenho 16 anos, sou um sonhador e meu maior sonho é poder andar normalmente, pois
-                durante o parto de minha mãe, no período de meu nascimento, faltou oxigênio no meu cérebro e ficaram
-                algumas sequelas, dentre elas a minha coordenação motora, que prejudicou principalmente minha capacidade
-                de locomover, mais graças a Deus, minha capacidade cognitiva não foi atingida e hoje faço quase de tudo,
-                menos andar.</P>
+  <section id="sobre">
+    <img src="./src/img/eze-img-re.png">
+    <div class="caixa-sobremim">
+      <h2>Sobre mim</h2>
+      <P>Ola, sou Ezequiel! Tenho 17 anos, sou um sonhador e meu maior sonho é poder andar normalmente, pois
+        durante o parto de minha mãe, no período de meu nascimento, faltou oxigênio no meu cérebro e ficaram
+        algumas sequelas, dentre elas a minha coordenação motora, que prejudicou principalmente minha capacidade
+        de locomover, mais graças a Deus, minha capacidade cognitiva não foi atingida e hoje faço quase de tudo,
+        menos andar.</P>
 
-            <h3>Meu segundo maior sonho</h3>
+      <!-- <h3>Meu segundo maior sonho</h3> -->
+      <!---->
+      <!-- <p>Desde pequeno eu pensava em muitos tipos de profissões como: pedreiro, advogado, juiz e entre outras dos -->
+      <!--   mais variados tipos. O tempo passa, e o amadurecimento vem, as ideias começam a mudar, foi onde comecei -->
+      <!--   a apaixonar por robores, vendo a dificuldade da minha mãe que é de limpar a casa e surgiu a ideia de -->
+      <!--   construí robô, já existe alguns no mercado mais eu quero fazer meu próprio, inspirado no dizer “quem -->
+      <!--   mandou nunca se agradou”. </p> -->
 
-            <p>Desde pequeno eu pensava em muitos tipos de profissões como: pedreiro, advogado, juiz e entre outras dos
-                mais variados tipos. O tempo passa, e o amadurecimento vem, as ideias começam a mudar, foi onde comecei
-                a apaixonar por robores, vendo a dificuldade da minha mãe que é de limpar a casa e surgiu a ideia de
-                construí robô, já existe alguns no mercado mais eu quero fazer meu próprio, inspirado no dizer “quem
-                mandou nunca se agradou”. </p>
+      <div class="contatos" id="contato">
+        <a href="https://www.linkedin.com/in/ezequiel-de-souza-santos" target="_blank"><button>Linkedin</button></a>
 
-            <div class="contatos" id="contato">
-                <a href="https://www.linkedin.com/in/ezequiel-de-souza-santos"
-                        target="_blank"><button>Linkedin</button></a>
+        <button class="email" onclick="copiar()">Email</button>
 
-                <button class="email" onclick="copiar()">Email</button>
+        <a href="http://github.com/Zecamilplano/" target="_blank"> <button class="github"> Github </button> </a>
 
-                <a href="http://github.com/Zecamilplano/" target="_blank"> <button class="github"> Github </button> </a>
+        <a href="./src/meu-curriculo.pdf"><button class="curriculo">Meu currículo</button></a>
+      </div>
+      <div class="skills">
 
-                <a href="./src/meu-curriculo.pdf"><button class="curriculo">Meu currículo</button></a> 
-            </div>
-            <div class="skills">
+        <h2>Skils</h2>
+        <p>HTML-5 | CSS-3 | JavaScript | Node </p>
+      </div>
+  </section>
 
-                <h2>Skils</h2>
-                <p>HTML-5 | CSS-3 | JavaScript | Node </p>
-            </div>
-    </section>
+  <div class="projetos" id="projects">
+    <h1>Principais Projetos</h1>
 
-    <div class="projetos" id="projects">
-        <h1>Principais Projetos</h1>
+    <div class="box-projetos">
+      <div class="cards">
+        <img src="./src/img/android-ico.png" alt="imagem do android">
+        <h3>Projeto Android</h3>
+        <p>
+          Desenvolvido no <a
+            href="https://www.youtube.com/watch?v=cKEA0-MOhOs&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=32"
+            target="_blank ">curso de HTML 5 e CSS 3</a>.
+          Conta como surgiu o mascote do android.
+        </p>
+        <p>
+          Canal do <a href="https://www.youtube.com/@CursoemVideo" target="_blank">curso-em-video</a>
+          Link do <a href="http://zecamilplano.github.io/projeto-android/" target="_blank">Projeto Android</a>
+          Link do <a href="https://github.com/Zecamilplano/projeto-android" target="_blank">Github</a>
+        </p>
 
-        <div class="box-projetos">
-            <div class="cards">
-                <img src="./src/img/android-ico.png" alt="imagem do android">
-                <h3>Projeto Android</h3>
-                <p>
-                    Desenvolvido no <a
-                        href="https://www.youtube.com/watch?v=cKEA0-MOhOs&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=32"
-                        target="_blank ">curso de HTML 5 e CSS 3</a>.
-                    Conta como surgiu o mascote do android.
-                </p>
-                <p>
-                    Canal do <a href="https://www.youtube.com/@CursoemVideo" target="_blank">curso-em-video</a>
-                    Link do <a href="http://zecamilplano.github.io/projeto-android/" target="_blank">Projeto Android</a>
-                    Link do <a href="https://github.com/Zecamilplano/projeto-android" target="_blank">Github</a>
-                </p>
+      </div>
 
-            </div>
+      <div class="cards projeto-cordeu">
 
-            <div class="cards projeto-cordeu">
+        <img src="./src/img/cordeu-moderno.png" alt="icone da capa de cordeu">
+        <h3>Projeto Cordeu</h3>
+        <p>Desenvolvido no curso de HTML 5 e CSS 3.
+          Recita o cordeu de Milton Duarte. Cujo o nome é Cordeu Moderno.
 
-                <img src="./src/img/cordeu-moderno.png" alt="icone da capa de cordeu">
-                <h3>Projeto Cordeu</h3>
-                <p>Desenvolvido no curso de HTML 5 e CSS 3.
-                    Recita o cordeu de Milton Duarte. Cujo o nome é Cordeu Moderno.
-
-                </p>
-                <p>
-                    Canal do <a href="https://www.youtube.com/@CursoemVideo" target="_blank">curso-em-video </a>
-                    Link do <a href="https://zecamilplano.github.io/projeto-cordeu/
+        </p>
+        <p>
+          Canal do <a href="https://www.youtube.com/@CursoemVideo" target="_blank">curso-em-video </a>
+          Link do <a href="https://zecamilplano.github.io/projeto-cordeu/
                     " target="_blank">Projeto Cordeu</a>
-                    Link do <a heref="https://github.com/Zecamilplano/projeto-cordeu" target="_blank"> Github</a>
-                </p>
-            </div>
+          Link do <a heref="https://github.com/Zecamilplano/projeto-cordeu" target="_blank"> Github</a>
+        </p>
+      </div>
 
-            <div class="cards">
-                <img src="./src/img/conversor.png" alt="icone da capa do conversor">
+      <div class="cards">
+        <img src="./src/img/conversor.png" alt="icone da capa do conversor">
 
-                <h3>Conversor de Moedas</h3>
-                <p>Desenvolvido no curso de JavaScript do DevClub. <br>
-                    É um conversor de moedas onde traz valores atualizados de uma API. <br>
-                </p>
-                <p class="destaque">
+        <h3>Conversor de Moedas</h3>
+        <p>Desenvolvido no curso de JavaScript do DevClub. <br>
+          É um conversor de moedas onde traz valores atualizados de uma API. <br>
+        </p>
+        <p class="destaque">
 
-                    Link <a href="https://zecamilplano.github.io/conversor-de-moedas/" target="_blank">Conversor de moedas</a>
-                    Link do <a href="https://plataforma.devclub.com.br" target="_blank">DevClub</a> <br>
-                    Link do <a href="https://github.com/Zecamilplano/conversor-de-moedas" target="_blank">Github</a>
-                </p>
-
-
-            </div>
-
-            <div class="cards">
-                <img src="./src/img/cronomentro-digital.png" alt="icone de cronometro">
-                <h3>Cronomentro Digital</h3>
-                <p>
-                    Desenvolvido na Missão programação do zero de Junho. Feito no canal do Rodolfo Mori
-                </p>
-                <p>
-                    Link: <a href="https://zecamilplano.github.io/cronometro-digital/" target="_blank"> Cronomentro Digital </a>
-                    Canal do <a href="https://www.youtube.com/@RodolfoMori" target="_blank"> Rodolfo Mori</a>
-                    Link do <a href="https://github.com/Zecamilplano/cronometro-digital" target="_blank"> Github</a>
-                </p>
-            </div>
-
-            <div class="cards">
-                <img src="./src/img/relogio-digital.png" alt="Icone Relogio de ponteiro">
-                <h3>Relogio de ponteiro</h3>
-                <p>Esse projeto é um <a href="https://www.youtube.com/watch?v=yXFiTDfhSXo" target="_blank">Relogio</a> de Ponteiro quee
-                    foi desenvolvido por um canal gringo no youtube que tem por nome de <a
-                        href="https://www.youtube.com/@OnlineTutorialsYT" target="_blank"> Online Tutorials </a> <br>
-                    Link do <a href="https://zecamilplano.github.io/relogio-de-ponteiro/" target="_blank">Relogio de ponteiro</a> <br>
-                    Link do <a href="https://github.com/Zecamilplano/relogio-de-ponteiro"  target="_blank">Github</a>
-                </p>
-            </div>
-
-            <div class="cards">
-                <img src="./src/img/calc1.png" alt="calculadora" height="400px">
-                <h3>Calculadora</h3>
-                <p>Desenvolvido em uma das lives do <a href="https://www.youtube.com/watch?v=i91hnwqB3v4&t=2s"
-                        target="_blank">Rodolfo Mori</a>. <br>
-                    O Projeto é uma calculadora 
-                </p>
-                <p>
-                    Canal do <a href="https://www.youtube.com/@RodolfoMori" target="_blank">Rodolfo Mori</a> <br>
-                    Link da <a href="https://zecamilplano.github.io/calculadora/" target="_blank"> Calculadora</a> <br>
-                    Link do <a href="https://zecamilplano.github.io/calculadora/" target="_blank"> Github</a>
-                </p>
-            </div>
+          Link <a href="https://zecamilplano.github.io/conversor-de-moedas/" target="_blank">Conversor de moedas</a>
+          Link do <a href="https://plataforma.devclub.com.br" target="_blank">DevClub</a> <br>
+          Link do <a href="https://github.com/Zecamilplano/conversor-de-moedas" target="_blank">Github</a>
+        </p>
 
 
+      </div>
 
-        </div>
+      <div class="cards">
+        <img src="./src/img/cronomentro-digital.png" alt="icone de cronometro">
+        <h3>Cronomentro Digital</h3>
+        <p>
+          Desenvolvido na Missão programação do zero de Junho. Feito no canal do Rodolfo Mori
+        </p>
+        <p>
+          Link: <a href="https://zecamilplano.github.io/cronometro-digital/" target="_blank"> Cronomentro Digital </a>
+          Canal do <a href="https://www.youtube.com/@RodolfoMori" target="_blank"> Rodolfo Mori</a>
+          Link do <a href="https://github.com/Zecamilplano/cronometro-digital" target="_blank"> Github</a>
+        </p>
+      </div>
 
-    </div>
+      <div class="cards">
+        <img src="./src/img/relogio-digital.png" alt="Icone Relogio de ponteiro">
+        <h3>Relogio de ponteiro</h3>
+        <p>Esse projeto é um <a href="https://www.youtube.com/watch?v=yXFiTDfhSXo" target="_blank">Relogio</a> de
+          Ponteiro quee
+          foi desenvolvido por um canal gringo no youtube que tem por nome de <a
+            href="https://www.youtube.com/@OnlineTutorialsYT" target="_blank"> Online Tutorials </a> <br>
+          Link do <a href="https://zecamilplano.github.io/relogio-de-ponteiro/" target="_blank">Relogio de ponteiro</a>
+          <br>
+          Link do <a href="https://github.com/Zecamilplano/relogio-de-ponteiro" target="_blank">Github</a>
+        </p>
+      </div>
 
-    <footer>
-        <p>Todos os direitos reservados</p>
-    </footer>
+      <div class="cards">
+        <img src="./src/img/calc1.png" alt="calculadora" height="400px">
+        <h3>Calculadora</h3>
+        <p>Desenvolvido em uma das lives do <a href="https://www.youtube.com/watch?v=i91hnwqB3v4&t=2s"
+            target="_blank">Rodolfo Mori</a>. <br>
+          O Projeto é uma calculadora
+        </p>
+        <p>
+          Canal do <a href="https://www.youtube.com/@RodolfoMori" target="_blank">Rodolfo Mori</a> <br>
+          Link da <a href="https://zecamilplano.github.io/calculadora/" target="_blank"> Calculadora</a> <br>
+          Link do <a href="https://zecamilplano.github.io/calculadora/" target="_blank"> Github</a>
+        </p>
+      </div>
+
+
 
     </div>
 
-    <script>
+  </div>
 
-        const copiar = (() => {
-            let email = document.querySelector(".email")
+  <footer>
+    <p>Todos os direitos reservados</p>
+  </footer>
 
-            navigator.clipboard.writeText('ezepainho@gmail.com')
-            email.innerHTML = `<div class="box-notification"> 
+  </div>
+
+  <script>
+
+    const copiar = (() => {
+      let email = document.querySelector(".email")
+
+      navigator.clipboard.writeText('ezepainho@gmail.com')
+      email.innerHTML = `<div class="box-notification"> 
                 <p> Email: ezepainho@gmail.com </p> 
                 <p> Copiado com sucesso </p>
                 
             </div>`
-            setInterval(() => {
-                document.querySelector(".box-notification").style.display = "none"
-                email.innerHTML = "Email"
+      setInterval(() => {
+        document.querySelector(".box-notification").style.display = "none"
+        email.innerHTML = "Email"
 
-            }, 2000);
+      }, 2000);
 
-        })
-    </script>
+    })
+  </script>
 </body>
 
 </html>
