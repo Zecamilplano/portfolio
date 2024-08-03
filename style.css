@@ -1,319 +1,385 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap');
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
-
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .caixa-principal {
-    height: 100vh;
-    width: 100%;
-    background-image: url(./src/img/background1.png);
-    background-size: cover;
-    background-position: center;
-    background-color: #191919;
-
-
+  height: 100vh;
+  width: 100%;
+  background-image: url(./src/img/background1.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #191919;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 30px;
-    padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  padding-top: 10px;
 }
 
 .portifolio {
-    color: white;
-    font-size: 40px;
-    font-weight: 500;
-    margin-left: 12px;
-    margin-top: 12px;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-top: 12px;
 }
 
 
 .portifolio span {
-    color: #f9004d;
+  color: #f9004d;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
-    display: inline-block;
-    font-size: 25px;
-    margin-left: 35px;
-
+  list-style: none;
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 35px;
 }
 
 li a {
-    color: white;
-    cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
 
 a:hover {
-    color: #f9004d;
-    transition: 0.5s;
+  color: #f9004d;
+  transition: 0.5s;
 }
 
 .meu-nome {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15%;
-    margin-left: 3%;
-    width: 500px;
-    height: 98px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: 3%;
+  width: 500px;
+  height: 98px;
 }
 
 h1 {
-    color: white;
-    font-size: 65px;
-    margin-bottom: 5px;
+  color: white;
+  font-size: 65px;
+  margin-bottom: 5px;
 }
 
 h1 span {
-    color: #f9004d;
+  color: #f9004d;
 }
 
 .meu-nome h3 {
-    color: white;
+  color: white;
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding-top: 100px;
-    padding-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 55px;
 }
 
 section img {
-    height: 250px;
-    margin: 30px 10px;
+  height: 250px;
+  margin: 30px 10px;
 }
 
 .caixa-sobremim p {
-    width: 600px;
-    margin-top: 5px;
-    display: flex;
+  width: 600px;
+  margin-top: 5px;
+  display: flex;
 }
 
 .caixa-sobremim h3 {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .contatos {
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-top: 6px;
-    gap: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 6px;
+  gap: 8px;
+}
+
+button {
+  background-color: #f9004d;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.6;
 }
 
 .contatos button {
-    background-color: #f9004d;
-    padding: 10px;
-    border-radius: 6px;
-    height: 40px;
-    width: 115px;
-    cursor: pointer;
+  height: 40px;
+  width: 115px;
 }
 
 .contatos a {
-    color: black;
+  color: black;
+  outline: none;
 }
-.curriculo{
-    display: block;
-    margin: 5px auto;
+
+.curriculo {
+  display: block;
+  margin: 5px auto;
 }
+
 /*.github {
     display: inline-flex;'
     display: block;
     margin: -35px auto;
-}*/ 
+}*/
 
 .box-notification {
-    height: 50px;
-    width: 200px;
-    background-color: greenyellow;
-    position: fixed;
-    top: 0px;
-    right: 0px;
+  height: 50px;
+  width: 200px;
+  background-color: greenyellow;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
 
 .skills {
-    margin-top: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills h2 {
-    display: inline-block;
+  display: inline-block;
 
+}
+
+.skills img {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contatos a {
+  color: black;
 }
 
 .projetos {
-    background-color: #191919;
-    padding-bottom: 50px;
+  background-color: #191919;
 }
 
 .projetos h1 {
-    text-align: center;
-    padding-top: 90px;
+  text-align: center;
+  padding-top: 90px;
 }
 
 .projetos h3 {
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 .projetos img {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .projetos p {
-    color: white;
-    text-align: center;
-    line-height: 20px;
-    margin-top: 8px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.img-techs {
+  display: inline-block;
+  width: 50px !important;
+  height: 50px !important;
 }
 
 .box-projetos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 68vw;
-    margin: 0 auto;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
 }
 
 .box-projetos a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .box-projetos a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.box-projetos img {
+  width: 110px;
+  height: 110px;
 }
 
 .cards {
-
-    background-color: black;
-    margin: 0 auto;
-    padding: 15px;
-    height: 300px;
-    width: 219px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-    margin-top: 30px;
-    border-radius: 12px;
-    margin-left: 32px;
-    margin-right: 1px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  width: 525px;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 0 8px;
 }
 
-
-.destaque {
-    text-align: center;
-    font-size: 15px;
+.cards h2 {
+  color: white;
 }
 
-.cards h3 {
-    padding-top: 10px;
+.cards a {
+  padding-top: 8px;
 }
 
-.ico-github {
-    height: 40px;
-    position: relative;
-    top: 48px;
-    left: 60px;
+.division-1 {
+  display: block;
+  margin: 12px;
+}
+
+.division-2 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.hiden-img-techs {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.toogle_link_to_techs {
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 32px;
 }
 
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
 @media (max-width: 990px) {
-    .caixa-principal {
-        background-image: none;
-        text-align: center;
-        height: 67vh;
-    }
-    
-    nav p{
-        margin: 0 auto;
-    }
-    nav ul {
-        display: none;
-    }
+  .caixa-principal {
+    background-image: none;
+    text-align: center;
+    height: 67vh;
+  }
 
-    .meu-nome{
-        width: 100vw;
-        margin: 16vw auto;
-    }
+  nav p {
+    margin: 0 auto;
+  }
 
-    .sobre{
-        width: 100vw;
-    }
-    .sobre h2{
-        font-size: 40px ;
-    }
+  nav ul {
+    display: none;
+  }
 
-    #sobre img{
-        display: none;
-    }
+  .meu-nome {
+    width: 97vw;
+    margin: 16vw auto;
+  }
 
-    .caixa-sobremim h2 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .caixa-sobremim h3 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .caixa-sobremim p{
-        width: 100vw;
-        font-size: 14px;
-        text-align: center;
-        padding: 12px;
-    }
+  .sobre {
+    width: 100vw;
+  }
 
-    .contatos{
-        text-align: center;
-        display: block;
-    }
-    
+  .sobre h2 {
+    font-size: 40px;
+  }
 
-    .skills{
-        text-align: center;
-        margin-top: 25px;
-    }
-    .skills h2{
-        margin-bottom: 3px;
-    }
-    .skills p{
-        margin: 0 auto;
-        display: block;
-    }
+  .caixa-sobremim h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-    .projeto-cordeu{
-        height: 329px;
-    }
+  .caixa-sobremim h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-    .conversor{
-        height: 360px;
-    }
+  .caixa-sobremim p {
+    font-size: 14px;
+    text-align: center;
+    padding: 12px;
+    width: auto;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contatos {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .skills {
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills h2 {
+    margin-bottom: 3px;
+  }
+
+  .skills p {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .skills img {
+    display: flex;
+    height: 50px;
+    width: 50px;
+  }
+
 }
+
+/* @media (max-width: 526) */
