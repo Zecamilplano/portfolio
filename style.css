@@ -194,6 +194,7 @@ button:active {
 .projetos h1 {
   text-align: center;
   padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .projetos h3 {
@@ -226,7 +227,7 @@ button:active {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 24px;
   margin-bottom: 24px;
 }
 
@@ -262,6 +263,7 @@ button:active {
 
 .cards h2 {
   color: white;
+  padding-bottom: 23px;
 }
 
 .cards a {
@@ -289,6 +291,7 @@ button:active {
 .toogle_link_to_techs {
   width: 100%;
   margin-top: 8px;
+  margin-bottom: 8px;
   border-radius: 32px;
 }
 
@@ -303,7 +306,7 @@ footer {
   .caixa-principal {
     background-image: none;
     text-align: center;
-    height: 67vh;
+    height: 97vh;
   }
 
   nav p {
